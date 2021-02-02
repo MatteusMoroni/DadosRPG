@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dados de RPG</title>
+</head>
+<body>
+    <header>
+        <h1>Dados de RPG</h1>
+    </header>
+
+    <section class="dados">
+        <div class="container">
+            <div class="boxD1" onclick="d4()" id="D4">
+                <h2>D4</h2>
+                <h3 id="res-d4"></h3>
+            </div>
+
+            <div class="boxD1" onclick="d6()" id="D6">
+                <h2>D6</h2>
+                <h3 id="res-d6"></h3>
+            </div>
+        </div>
+
+       <div class="container">
+            <div class="boxD2" onclick="d8()" id="D8">
+                <h2>D8</h2>
+                <h3 id="res-d8" ></h3>
+            </div>
+
+            <div class="boxD2" onclick="d10()" id="D10">
+                <h2>D10</h2>
+                <h3 id="res-d10"></h3>
+            </div>
+        </div>
+        <div class="container" >
+            <div class="boxD3" onclick="d12()" id="D12">
+                <h2>D12</h2>
+                <h3 id="res-d12"></h3>
+            </div>
+
+            <div class="boxD3" onclick="d20()" id="D20">
+                <h2>D20</h2>
+                <h3 id="res-d20"></h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
